@@ -1,0 +1,14 @@
+{
+  "name": "creative-agency-bootstrap",
+  "description": "Creative agency with Bootrstrap",
+  "main": "gulpfile.js",
+  "author": "Nastya",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "foundation-sites": "^6.4.3"
+  }
+}
