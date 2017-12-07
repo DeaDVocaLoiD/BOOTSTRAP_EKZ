@@ -40,9 +40,12 @@ gulp.task('sass', function () {
 
 gulp.task('javascript', function (cb) {
     pump([
-            gulp.src(['node_modules/bootstrap/dist/js/bootstrap.bundle.js',
-                'assets/src/javascript/plugins/*.js',
-                'assets/src/javascript/scripts.js'])
+            gulp.src([
+                'assets/components/jquery/dist/jquery.min.js',
+                'node_modules/bootstrap/dist/js/bootstrap.bundle.js',
+                'assets/src/javascript/plugins/script.js',
+                'assets/src/javascript/plugins/slick.min.js'
+            ])
             .pipe(concat('global.js')),
             uglify(),
             gulp.dest('assets/dist/javascript')

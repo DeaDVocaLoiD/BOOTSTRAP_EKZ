@@ -2,7 +2,7 @@
   "name": "creative-agency-bootstrap",
   "description": "Creative agency with Bootrstrap",
   "main": "gulpfile.js",
-  "author": "Nastya",
+  "author": "leha",
   "ignore": [
     "**/.*",
     "node_modules",

@@ -4,20 +4,16 @@
   background-size: cover;
   color: $white;
   text-align: center;
-  @media (max-width: 1199px) {
-    .display-2 {
-      font-size: 3rem;
-    }
+  @include media-breakpoint-down(xs) {
+    ...
   }
-  @media (max-width: 991px) {
-    .display-2 {
-      font-size: 3rem;
-    }
+  @include media-breakpoint-down(sm) {
+    ...
   }
-  @media (max-width: 767px) {
-    .display-2 {
-      height: 300px;
-      font-size: 2rem;
-    }
+  @include media-breakpoint-down(md) {
+    ...
+  }
+  @include media-breakpoint-down(lg) {
+    ...
   }
 }
