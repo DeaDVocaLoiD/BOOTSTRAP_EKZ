@@ -7,8 +7,5 @@
     "**/.*",
     "node_modules",
     "bower_components"
-  ],
-  "devDependencies": {
-    "foundation-sites": "^6.4.3"
-  }
+  ]
 }
